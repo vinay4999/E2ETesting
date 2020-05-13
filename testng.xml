@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="mac"/>
+ <listeners>
+     <listener class-name="utils.Listeners.listeners"/>
+ </listeners>
+
+ <test name="Validating User login">
+    <classes>
+      <class name="Loginflow.signINSignOut"/>
+          </classes>
+      </test>
+      
+    <test name="Validating Invalid User login">
+         <classes>
+      <class name="Loginflow.wrongUserNamePassword"/>
+       </classes>
+      </test>
+
+       <test name="Round Trip Booking">
+         <classes>
+      <class name="Booking.roundTripBooking"/>
+       </classes>
+      </test>
+
+    <test name="Oneway Trip Booking">
+        <classes>
+            <class name="Booking.oneWayTrip"/>
+        </classes>
+    </test>
+
+    <test name="Business class Trip Booking">
+        <classes>
+            <class name="Booking.businessClassFlight"/>
+        </classes>
+    </test>
+
+    <test name="Economy class Trip Booking">
+        <classes>
+            <class name="Booking.economyClassFlight"/>
+        </classes>
+    </test>
+
+    <test name="First class Trip Booking">
+        <classes>
+            <class name="Booking.firstClassFlight"/>
+        </classes>
+    </test>
+
+    <test name="BlueSkies Airline Trip Booking">
+        <classes>
+            <class name="Booking.ticketBookingBlueSkiesAirlines"/>
+        </classes>
+    </test>
+
+    <test name="Pangea Airline Trip Booking">
+        <classes>
+            <class name="Booking.ticketBookingPangeaAirlines"/>
+        </classes>
+    </test>
+
+    <test name="Unified Airline Trip Booking">
+        <classes>
+            <class name="Booking.ticketBookingUnifiedAirlines"/>
+        </classes>
+    </test>
+
+    <test name="Cruise Trip Booking">
+        <classes>
+            <class name="CruiselineBooking.CruiseBooking"/>
+        </classes>
+    </test>
+
+</suite>

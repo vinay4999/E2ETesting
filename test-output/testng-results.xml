@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-12T19:52:58 IST" name="Suite" finished-at="2020-05-12T19:53:21 IST" duration-ms="23865">
+    <groups>
+    </groups>
+    <test started-at="2020-05-12T19:52:58 IST" name="Unified Airline Trip Booking" finished-at="2020-05-12T19:53:21 IST" duration-ms="23865">
+      <class name="Booking.ticketBookingUnifiedAirlines">
+        <test-method is-config="true" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:Booking.ticketBookingUnifiedAirlines@19835e64]" started-at="2020-05-12T19:52:58 IST" name="initialize" finished-at="2020-05-12T19:53:02 IST" duration-ms="4049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Booking.ticketBookingUnifiedAirlines@19835e64]" started-at="2020-05-12T19:53:02 IST" name="basePageNavigation" data-provider="getData" finished-at="2020-05-12T19:53:21 IST" duration-ms="19656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[quocom13@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Quocom@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Booking.ticketBookingUnifiedAirlines@19835e64]" started-at="2020-05-12T19:53:21 IST" name="teardown" finished-at="2020-05-12T19:53:21 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Booking.ticketBookingUnifiedAirlines -->
+    </test> <!-- Unified Airline Trip Booking -->
+  </suite> <!-- Suite -->
+</testng-results>
